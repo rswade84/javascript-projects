@@ -24,7 +24,7 @@ if (astronautCount > 7) {
 }
 
 // add logic below to verify all astronauts are ready
-if (astronautStatus != 'ready') {
+if (astronautStatus !== 'ready') {
   preparedForLiftOff = false;
   console.log('Alert! Astronauts Not Ready!');
 }
