@@ -1,1 +1,26 @@
-/* Start adding your styling below! */ 
+/* Start adding your styling below! */
+
+body {
+    background-color: yellow;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: green;
+}
+
+h1 {
+    font-size: 36px;
+    background-color: lightblue;
+}
+
+a {
+    width: 200px;
+    display: inline-block;
+}
+
+ol li {
+    display: inline;
+    margin-right: 10px;
+}
