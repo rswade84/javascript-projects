@@ -7,8 +7,44 @@
       label { display: block; margin-bottom: 7px;}
     </style>
   </head>
+
   <body>
     <!-- TODO: add form here -->
+    <form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+      <label>Test Name:
+        <input type="text" name="testName" required />
+      </label><br />
+      
+      <label>Test Date:
+        <input type="date" name="testDate" required />
+      </label><br />
+      
+      <label>Rocket Type:
+        <select name="rocketType" required>
+          <option value="Brant">Brant</option>
+          <option value="Lynx">Lynx</option>
+          <option value="Orion">Orion</option>
+          <option value="Terrier">Terrier</option>
+        </select>
+      </label><br />
+      
+      <label>Number of Rocket Boosters:
+        <input type="number" name="boosterCount" min="1" max="9" required />
+      </label><br />
+      
+      <label>Wind Rating:<br />
+        <input type="radio" name="windRating" value="0" /> No Wind<br />
+        <input type="radio" name="windRating" value="10" /> Mild<br />
+        <input type="radio" name="windRating" value="20" /> Strong<br />
+      </label><br />
+      
+      <label>Use production grade servers:
+        <input type="checkbox" name="productionServers" />
+      </label><br />
+      
+      <button type="submit">Run Simulation</button>
+    </form>
+    
   </body>
   
 </html>
