@@ -4,3 +4,13 @@ body {
     color: red;
     
 }
+
+#searchForm {
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+p {
+    color: black;
+}
